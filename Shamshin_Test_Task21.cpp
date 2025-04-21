@@ -5,9 +5,8 @@
 
 using namespace cute;
 
-// Тест 1: Проверка суммы ASCII
 void testSumASCII() {
-    ASSERT_EQUAL(195, SumASCII('A', 'Z')); // 65 + 90 = 155
+    ASSERT_EQUAL(155, SumASCII('A', 'Z')); // 65 + 90 = 155
 }
 
 // Тест 2: Проверка валидации символа

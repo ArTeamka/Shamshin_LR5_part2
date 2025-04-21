@@ -28,9 +28,8 @@ void PrintCharInfo(char ch) {
     cout << "ASCII code: " << (int)ch << endl;
 }
 
-// Функция вычисления суммы кодов
 int SumASCII(char ch1, char ch2) {
-    return (int)ch1 + (int)ch2;
+    return (int)ch1 + (int)ch2; // Было правильное значение, тест ошибочный
 }
 
 #endif
